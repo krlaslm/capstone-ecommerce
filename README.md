@@ -10,56 +10,106 @@ This project was created using React JS. Log-in verification is achieved by usin
   <img src="./Screenshots/homepage.png" alt="Screen 1" height="500">
 </p>
 
-Users will be presented with onboarding screens upon the initial launch of the Chatter application on their device. These screens introduce users to the features of Chatter.
-
----
-
-### Log In Screen
-
 <p>
-  <img src="./Screenshots/Login1.PNG" alt="Login" height="500">
-  <img src="./Screenshots/Login2.PNG" alt="Login" height="500">
+  <img src="./Screenshots/homepage2.png" alt="Screen 2" height="500">
 </p>
 
-Users are required to log in using phone number verification. The country picker is used to allow users to select their country and obtain the corresponding country code.
-
----
-
-### Set Up Screen
-
 <p>
-  <img src="./Screenshots/SetUp1.PNG" alt="Profile" height="500">
-  <img src="./Screenshots/SetUp2.PNG" alt="Chats" height="500">
+  <img src="./Screenshots/wishlist.png" alt="Screen 3" height="500">
 </p>
 
-New users will be greeted with the setup screen, which prompts for a required account name and an optional profile picture. Users will have the option to either take a new picture for the profile or choose one from their media library.
-
----
-
-### Home Screen
-
 <p>
-  <img src="./Screenshots/Profile.PNG" alt="Profile" height="500">
-  <img src="./Screenshots/Chats.PNG" alt="Chats" height="500">
+  <img src="./Screenshots/cart.png" alt="Screen 4" height="500">
 </p>
 
-The home screen contains two tabs: the profile screen and the chats screen. The profile screen displays the user's account name and profile picture and provides a sign-out button for logging out of the application. On the other hand, the chats screen showcases the created chats between the user and other participants. Each chat displays information about the other participant, including their profile picture and contact name. Additionally, a preview and the date of the last message are shown for each chat. Clicking on any chat opens up the chat room with the corresponding participant. In the bottom right corner of the chats screen, a floating icon is located. When pressed, this icon navigates the user to the contacts screen.
+Users will be presented with this homepage and able to view products on their webpage. In the homepage, in the header tabs, users will be able to toggle between "Home", "Best Selling", "Products" and "FAQ". The difference between Best Selling and Products tab, in the Best Selling page, it sorts all products from highest to lowest product sold. Whereas in Products tab, it displays all products not sorted to any function. Users without the need to create an account, are able to add items to wishlist and cart.
 
 ---
 
-### Contacts Screen
-
-<img src="./Screenshots/Contacts.PNG" alt="Contacts" height="500">
-
-The contacts screen retrieves contacts from the device's contact list as well as from the database. Each contact is displayed with the profile picture chosen by the specific user and the name as it appears in the device's contact list. Clicking on a contact will either open an existing chat with the corresponding user or create a new chat if the chat has not been previously created.
-
----
-
-### Chat Screen
+### Registration & Log In Screen
 
 <p>
-  <img src="./Screenshots/Chat1.PNG" alt="Chat" height="500">
-   <img src="./Screenshots/Chat2.PNG" alt="Chat" height="500">
+  <img src="./Screenshots/registration.png" alt="Registration" height="500">
 </p>
 
-The chat screen displays the conversation between two users. Similar to the contacts screen, the chat header shows the profile picture and contact name of the other user. Users can send messages and share pictures in real-time.
+<p>
+  <img src="./Screenshots/login.png" alt="Login" height="500">
+</p>
+
+Users are required to sign up and log in with the required fields to make checkout items that has been added to cart. Upon successful registration, user will receive an activation token in their registered email. After successfully activating the token, user will now be able to login and will be redirect to the homepage as shown previously.
+
+---
+
+### Product Details
+
+<p>
+  <img src="./Screenshots/productdetail.png" alt="Product detail" height="500">
+</p>
+
+Upon users clicking on the product card, it will lead to the individual product page as shown above where users can see the products reviews, ratings and also Seller information. Also, users will be able to add to cart or wishlist from this page.
+
+---
+
+### Checkout Page
+
+<p>
+  <img src="./Screenshots/checkoutpage.png" alt="Checkout" height="500">
+</p>
+
+After users added their items to cart and checks out, users will be directed to the page shown above where this checkout page consists of 3 steps. After filling up the address fields, user will click to make payment which will be directed to the credit card page.
+
+---
+
+### Seller Registration
+
+<p>
+  <img src="./Screenshots/seller-registration.png" alt="Seller Registration" height="500">
+</p>
+
+Users who has registered will have access to register as seller.
+
+---
+
+### Seller Dashboard
+
+<p>
+  <img src="./Screenshots/seller-dashboard.png" alt="Seller Dashboard" height="500">
+</p>
+
+<p>
+  <img src="./Screenshots/seller-allorders.png" alt="Seller All Orders" height="500">
+</p>
+
+<p>
+  <img src="./Screenshots/seller-all-products.png" alt="Seller All Products" height="500">
+</p>
+
+<p>
+  <img src="./Screenshots/seller-createproduct.png" alt="Seller Create Product" height="500">
+</p>
+
+<p>
+  <img src="./Screenshots/seller-discount.png" alt="Seller Create Disc Code" height="500">
+</p>
+
+Upon successfully register as the seller, sellers will have access to this dashboard where sellers can view all products in their shop, create product, view all orders request and create discount codes for customers. In the settings, sellers will be able to update their information such as shop name, shop description and shop address.
+
+---
+
+### Admin Dashboard
+
+<p>
+  <img src="./Screenshots/admin-dashboard.png" alt="Seller Dashboard" height="500">
+</p>
+
+<p>
+  <img src="./Screenshots/admin-settings.png" alt="Seller All Orders" height="500">
+</p>
+
+This is the admin dashboard where admin users have access to all orders from all shops, all sellers, all users, all products from all shops. In the admin settings, it has the same functionality as user settings just with the additional "Admin Dashboard" in the sidebar.
+
+---
+
+### Conclusion
+
+This may not look like the best e-commerce website you have come across, as there are still many improvements that could be made. Just to inform that there are certain function that are still in progress such as the message function and also the event function. Apologies for the inconvenience.
