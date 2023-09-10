@@ -5,6 +5,7 @@ const fs = require("fs");
 const jwt = require("jsonwebtoken");
 const sendMail = require("../utils/sendMail");
 const Shop = require("../model/shop");
+const Product = require("../model/product");
 const { isAuthenticated, isSeller, isAdmin } = require("../middleware/auth");
 const { upload } = require("../multer");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
@@ -295,6 +296,8 @@ router.delete(
       if (!seller) {
         return next(new ErrorHandler("Seller not found!", 400));
       }
+
+      await Product.deleteMany({ shopId: req.params.id });
 
       await Shop.findByIdAndDelete(req.params.id);
 

@@ -19,7 +19,6 @@ import {
 import Ratings from "./Ratings";
 
 const ProductDetails = ({ data }) => {
-  const navigate = useNavigate();
   const [count, setCount] = useState(1);
   const [click, setClick] = useState(false);
   const [select, setSelect] = useState(0);
@@ -27,6 +26,8 @@ const ProductDetails = ({ data }) => {
   const { cart } = useSelector((state) => state.cart);
   const { products } = useSelector((state) => state.products);
   const dispatch = useDispatch();
+
+  console.log(data);
 
   useEffect(() => {
     dispatch(getAllProductsShop(data && data?.shop._id));

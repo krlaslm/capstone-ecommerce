@@ -193,14 +193,14 @@ const AllCoupons = () => {
 
                   <br />
 
-                  <div>
+                  {/* <div>
                     <label className="pb-2">Min. Amount:</label>
                     <input
                       type="text"
                       name="minAmount"
                       value={minAmount}
                       className="mt-2 appearance-none block w-full px-3 h-[35px] border border-gray-300 rounded-[3px] placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                      placeholder="Enter your coupon code name..."
+                      placeholder="Enter your minimum value..."
                       onChange={(e) => setMinAmount(e.target.value)}
                     />
                   </div>
@@ -214,7 +214,7 @@ const AllCoupons = () => {
                       name="maxAmount"
                       value={maxAmount}
                       className="mt-2 appearance-none block w-full px-3 h-[35px] border border-gray-300 rounded-[3px] placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-                      placeholder="Enter your coupon code name..."
+                      placeholder="Enter your maximum value..."
                       onChange={(e) => setMaxAmount(e.target.value)}
                     />
                   </div>
@@ -239,7 +239,7 @@ const AllCoupons = () => {
                           </option>
                         ))}
                     </select>
-                  </div>
+                  </div> */}
 
                   <br />
 

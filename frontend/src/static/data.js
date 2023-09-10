@@ -12,10 +12,10 @@ export const navItems = [
     title: "Products",
     url: "/products",
   },
-  {
-    title: "Events",
-    url: "/events",
-  },
+  // {
+  //   title: "Events",
+  //   url: "/events",
+  // },
   {
     title: "FAQ",
     url: "/faq",
@@ -194,55 +194,56 @@ export const categoriesData = [
     title: "Daily Trainers",
     subTitle: "",
     image_Url:
-      "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+      "https://images.prodirectsport.com/ProductImages/Gallery_1/1002257_Gallery_1_1659240.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 2,
     title: "Race Day Shoes",
     subTitle: "",
     image_Url:
-      "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+      "https://images.prodirectsport.com/ProductImages/Gallery_1/1001143_Gallery_1_1667115.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 3,
     title: "Tempo Shoes",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+      "https://images.prodirectsport.com/ProductImages/Gallery_1/288357_Gallery_1_1419027.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 4,
     title: "Gels",
     subTitle: "",
     image_Url:
-      "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+      "https://images.prodirectsport.com/ProductImages/Main/269325_Main_Thumb_1146817.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 5,
     title: "Hydration Tablets",
     subTitle: "",
     image_Url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+      "https://images.prodirectsport.com/ProductImages/Main/249711_Main_Thumb_0950294.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 6,
     title: "Recovery Products",
     subTitle: "",
     image_Url:
-      "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+      "https://images.prodirectsport.com/ProductImages/Main/253733_Main_Thumb_0994702.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 7,
     title: "Accessories",
     subTitle: "",
-    image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+    image_Url:
+      "https://images.prodirectsport.com/ProductImages/Main/269372_Main_1651513.jpg?impolicy=thumb&imwidth=960",
   },
   {
     id: 8,
     title: "Others",
     subTitle: "",
     image_Url:
-      "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+      "https://images.prodirectsport.com/ProductImages/Main/1002947_Main_Thumb_1420520.jpg?impolicy=thumb&imwidth=960",
   },
 ];
 
@@ -271,19 +272,19 @@ export const footerProductLinks = [
 
 export const footercompanyLinks = [
   {
-    name: "Game & Video",
+    name: "Race Day Shoes",
   },
   {
-    name: "Phone &Tablets",
+    name: "Recovery Products",
   },
   {
-    name: "Computers & Laptop",
+    name: "Gels",
   },
   {
-    name: "Sport Watches",
+    name: "Accessories",
   },
   {
-    name: "Events",
+    name: "Others",
   },
 ];
 
