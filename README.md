@@ -1,1 +1,65 @@
-# capstone-ecommerce
+# E-commerce Capstone (Running Products)
+
+This project was created using React JS. Log-in verification is achieved by using the jsonwebtoken. The images are for products, users and sellers are stored in the multer diskstorage. There are still a few incomplete features due to my incompetency and still in the process of learning.
+
+---
+
+### Homepage
+
+<p>
+  <img src="./Screenshots/homepage.png" alt="Screen 1" height="500">
+</p>
+
+Users will be presented with onboarding screens upon the initial launch of the Chatter application on their device. These screens introduce users to the features of Chatter.
+
+---
+
+### Log In Screen
+
+<p>
+  <img src="./Screenshots/Login1.PNG" alt="Login" height="500">
+  <img src="./Screenshots/Login2.PNG" alt="Login" height="500">
+</p>
+
+Users are required to log in using phone number verification. The country picker is used to allow users to select their country and obtain the corresponding country code.
+
+---
+
+### Set Up Screen
+
+<p>
+  <img src="./Screenshots/SetUp1.PNG" alt="Profile" height="500">
+  <img src="./Screenshots/SetUp2.PNG" alt="Chats" height="500">
+</p>
+
+New users will be greeted with the setup screen, which prompts for a required account name and an optional profile picture. Users will have the option to either take a new picture for the profile or choose one from their media library.
+
+---
+
+### Home Screen
+
+<p>
+  <img src="./Screenshots/Profile.PNG" alt="Profile" height="500">
+  <img src="./Screenshots/Chats.PNG" alt="Chats" height="500">
+</p>
+
+The home screen contains two tabs: the profile screen and the chats screen. The profile screen displays the user's account name and profile picture and provides a sign-out button for logging out of the application. On the other hand, the chats screen showcases the created chats between the user and other participants. Each chat displays information about the other participant, including their profile picture and contact name. Additionally, a preview and the date of the last message are shown for each chat. Clicking on any chat opens up the chat room with the corresponding participant. In the bottom right corner of the chats screen, a floating icon is located. When pressed, this icon navigates the user to the contacts screen.
+
+---
+
+### Contacts Screen
+
+<img src="./Screenshots/Contacts.PNG" alt="Contacts" height="500">
+
+The contacts screen retrieves contacts from the device's contact list as well as from the database. Each contact is displayed with the profile picture chosen by the specific user and the name as it appears in the device's contact list. Clicking on a contact will either open an existing chat with the corresponding user or create a new chat if the chat has not been previously created.
+
+---
+
+### Chat Screen
+
+<p>
+  <img src="./Screenshots/Chat1.PNG" alt="Chat" height="500">
+   <img src="./Screenshots/Chat2.PNG" alt="Chat" height="500">
+</p>
+
+The chat screen displays the conversation between two users. Similar to the contacts screen, the chat header shows the profile picture and contact name of the other user. Users can send messages and share pictures in real-time.
