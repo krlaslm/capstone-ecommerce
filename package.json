@@ -22,6 +22,7 @@
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.4",
     "nodemon": "^3.0.1",
+    "react-helmet": "^6.1.0",
     "react-lottie": "^1.2.3",
     "redux-mock-store": "^1.5.4",
     "stripe": "^13.4.0"

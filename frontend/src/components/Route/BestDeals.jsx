@@ -16,6 +16,8 @@ const BestDeals = () => {
     setData(firstFive);
   }, [allProducts]);
 
+  console.log(data);
+
   return (
     <div>
       <div className={`${styles.section}`}>

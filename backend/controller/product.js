@@ -65,6 +65,7 @@ router.delete(
   catchAsyncErrors(async (req, res, next) => {
     try {
       const productId = req.params.id;
+      console.log("REQ log:", req);
 
       const productData = await Product.findById(productId);
 
@@ -90,7 +91,7 @@ router.delete(
         message: "Product deleted successfully!",
       });
     } catch (error) {
-      return next(new ErrorHandler(error.message, 400));
+      return next(new ErrorHandler(error, 400));
     }
   })
 );

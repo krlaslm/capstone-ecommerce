@@ -59,6 +59,7 @@ import axios from "axios";
 import { server } from "./server";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
+import { Helmet } from "react-helmet";
 
 const App = () => {
   const [stripeApikey, setStripeApiKey] = useState("");
@@ -78,6 +79,16 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <Helmet>
+        <title>Runners Realm</title>
+        <meta
+          name="description"
+          content="This website is made for runners and it has sellers from top brands such Adidas, On, Nike and etc. View details and reviews of our running shoes, gels, hydration tablets products."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta name="author" content="Khairul Aslam" />
+      </Helmet>
       {stripeApikey && (
         <Elements stripe={loadStripe(stripeApikey)}>
           <Routes>
